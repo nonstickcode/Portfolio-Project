@@ -1,0 +1,87 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+html {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  height: 70px;
+  width: auto;
+
+  border: 2px solid blue;
+  padding-bottom: 20px;
+  
+}
+
+.nav-left {
+  border: 2px solid red;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.nav-right {
+  border: 2px solid red;
+  font-size: large;
+  
+}
+.nav-right a {
+  padding: 8px;
+  border: 2px solid black;
+}
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  align-items: center;
+}
+
+.about-me-text {
+  border: 2px solid green;
+  max-width: 1000px;
+  
+}
+
+#selfie-img {
+  width: 400px;
+  border-radius: 2em;
+  border: 2px solid black;
+}
+
+.projects {
+  border: 2px solid orange;
+
+}
+
+.skills-container {
+  border: 2px solid black;
+
+}
+
+.skills-title {
+  border: 2px solid blue;
+}
+
+.skills-icons {
+  border: 2px solid red;
+  display: flex;
+  height: 75px;
+  width: auto;
+  justify-content: space-around;
+
+}
+
+.fab {
+  height: auto;
+}
+
