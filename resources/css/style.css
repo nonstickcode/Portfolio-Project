@@ -16,25 +16,24 @@ html {
   height: 70px;
   width: auto;
 
-  border: 2px solid blue;
+  
   padding-bottom: 20px;
   
 }
 
 .nav-left {
-  border: 2px solid red;
+  
   font-size: xx-large;
   font-weight: bold;
 }
 
 .nav-right {
-  border: 2px solid red;
+  
   font-size: large;
   
 }
 .nav-right a {
   padding: 8px;
-  border: 2px solid black;
 }
 
 .about-me {
@@ -42,13 +41,12 @@ html {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  border: 2px solid black;
   align-items: center;
 }
 
 .about-me-text {
-  border: 2px solid green;
-  max-width: 1000px;
+  
+  max-width: 800px;
   
 }
 
@@ -56,32 +54,51 @@ html {
   width: 400px;
   border-radius: 2em;
   border: 2px solid black;
+  
 }
 
 .projects {
-  border: 2px solid orange;
+  
 
 }
 
 .skills-container {
-  border: 2px solid black;
+  
 
 }
 
 .skills-title {
-  border: 2px solid blue;
+  
 }
 
 .skills-icons {
-  border: 2px solid red;
+  
   display: flex;
   height: 75px;
   width: auto;
   justify-content: space-around;
+  flex-wrap: wrap;
 
 }
 
 .fab {
   height: auto;
+}
+
+@media (max-width: 1425px) {
+  
+
+  .about-me {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 625px) {
+  .nav-right {
+    padding-top: 10px;
+  }
+  .nav {
+    justify-content: center;
+  }
 }
 
